@@ -7,7 +7,7 @@ _Thisala Dinujaya Weerasinghe - Team 1_
 ## Core Value and Differentiation
 Breaking free from the limitations of traditional metering and the expense of high-end systems, our solution offers an essential energy management system designed to empower users without breaking the bank.
 
-Key strenghts compared to competitors:
+Key strengths compared to competitors:
 - **Low Cost and Cost-Effectiveness**: the system is designed to be more affordable than industrial energy management systems and, through the promotion of behavioral change, offers immediate and tangible return on a very moderate investment;
 - **Simplicity and Clarity**: user application designed for clear data visualization as well as easy installation set it apart from unnecessarily complicated solutions;
 - **Scalable IoT Platform**: besides its value as a standalone tool, the integration with a fog layer serves as a foundation for integrating future features that can be shared with multiple meters;
@@ -28,15 +28,15 @@ The primary target market are those who can benefit the most from accessible, co
 
 ---
 
-## Promotion Stategy
+## Promotion Strategy
 The promotion strategy will focus on educating potential users about the **information gap** and positioning our smart meter as a simple, affordable, ad effective solution to gain control over energy costs and consumption:
 - **Education on the "Invisible Bill"**:
-  - Launch a campaing highlighting the frustration and lost potential savings associated with not knowing your real-time energy use;
+  - Launch a campaign highlighting the frustration and lost potential savings associated with not knowing your real-time energy use;
   - Use relatable scenarios to engage with the public. Examples include:
     - _Peak-Hour Blindness_: you run your washing machine at peak hours, knowing you're losing money, but do you know exactly how much you're losing?
     - _Vacation Surprise_: you went away for the weekend and unplugged everything but the bill is surprisingly high. Who is the culprit? There's no way to know with traditional bills!
     - _The Cost of Days Off_: are weekends more expensive than weekdays? Sure, the TV and the lights will be on for more time, but are these small habits adding up significantly? We need daily monitoring to know that!
-- **Showace Tangible Savings**:
+- **Showcase Tangible Savings**:
   - Provide clear examples on how adjusting habits based on data insights can lower electricity bills;
   - Use simple calculations to demonstrate the potential return on investment;
 - **Position as an Accessible First Step**: Market the product as the ideal starting point for anyone serious about saving energy an money;
@@ -51,7 +51,7 @@ The promotion strategy will focus on educating potential users about the **infor
 ## Sales and Distribution
 To ensure that our smart power meter is easily accessible to its target markets, we can use the following sales channels:
 - **Direct Online Sales**: operate an e-commerce platform on our website, allowing for direct customer interaction and lowering prices by cutting intermediaries;
-- **Partnershis with Electronis Retailers**: stocking the product in stores where customers typically purchase electronic gadgets will increase reach and visibility;
+- **Partnerships with Electronics Retailers**: stocking the product in stores where customers typically purchase electronic gadgets will increase reach and visibility;
 - **Direct Sales to SMEs**: develop an outreach program targetting small business owners by attending local expos or partnering up with business guilds;
 - **Educational and Community Programs**: offer the product through partnerships with schools and communities at a reduced cost to promote energy literacy and adoption;
 - **Online Marketplace**: list the product on popular Taiwanese e-commerce platforms (e.g. Shopee, PC home) to reach a wider online audience;
