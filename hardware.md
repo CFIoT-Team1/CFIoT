@@ -42,18 +42,7 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
 ## 🖼️ System Images
 
 ### Full Enclosure Setup
-<img src="./images/enclosure_full.jpg" alt="Enclosure Full View" width="400"/>
 
-> Wall-mounted view of the transparent protective enclosure housing all components.
-
----
-
-### Internal Wiring & Components
-<img src="./images/enclosure_internal.jpg" alt="Internal Wiring" width="400"/>
-
-> Close-up of internal wiring and DIN-rail mounted modules.
-
----
 
 ### Power Meter: Adtek CPM-12D  
 ![Adtek CPM-12D](./images/Adtek.png)  
@@ -75,5 +64,20 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
 
 ### Wiring Diagram (Slide)
 ![Hardware Diagram](./images/Hardware_Diagram.png)  
-> Midterm presentation slide showing the wiring and system layout.
+>  Wiring and system layout
+
+---
+
+<img src="./images/enclosure_full.jpg" alt="Enclosure Full View" width="400"/>
+
+> Wall-mounted view of the transparent protective enclosure housing all components.
+
+---
+
+### Internal Wiring & Components
+<img src="./images/enclosure_internal.jpg" alt="Internal Wiring" width="400"/>
+
+> Close-up of internal wiring and DIN-rail mounted modules.
+
+---
 
