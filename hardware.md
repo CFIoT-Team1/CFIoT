@@ -21,7 +21,7 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
   Delivers regulated DC voltage to all components. Powered directly from the measured circuit.
 
 - **Relay Control**  
-  → **Component: RT10-32X Relay (10A)**  
+  → **Component: RT10-32X Relay**  
   Used to control a connected load or simulate switching behavior. Can be triggered automatically based on measurement conditions or manually.
 
 ---
@@ -41,16 +41,39 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
 
 ## 🖼️ System Images
 
-### 📷 Full Enclosure
+### Full Enclosure Setup
+<img src="./images/enclosure_full.jpg" alt="Enclosure Full View" width="400"/>
 
-![Enclosure Overview](./images/enclosure_full.jpg)
-
-### 🔍 Internal Wiring Close-Up
-
-![Internal View](./images/enclosure_internal.jpg)
-
-### 🧾 Presentation Slide (Measurement & Control Breakdown)
-
-![Slide](./images/midterm_slide.png)
+> Wall-mounted view of the transparent protective enclosure housing all components.
 
 ---
+
+### Internal Wiring & Components
+<img src="./images/enclosure_internal.jpg" alt="Internal Wiring" width="400"/>
+
+> Close-up of internal wiring and DIN-rail mounted modules.
+
+---
+
+### Power Meter: Adtek CPM-12D  
+![Adtek CPM-12D](./images/Adtek.png)  
+> Multifunction power meter that measures voltage, current, and power.
+
+---
+
+### Communication Dongle: ZQWL-GE300D  
+![ZQWL-GE300D](./images/ZQWL.png)  
+> RS485-to-Wi-Fi dongle used to transmit power meter data to the cloud.
+
+---
+
+### Relay: RT10-32X  
+![RT10-32X](./images/RT18.png)  
+> Relay used for switching or load simulation in the system.
+
+---
+
+### 📊 Wiring Diagram (Slide)
+![Hardware Diagram](./images/Hardware_Diagram.png)  
+> Midterm presentation slide showing the wiring and system layout.
+
