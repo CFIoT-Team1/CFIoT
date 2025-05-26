@@ -1,12 +1,12 @@
-# 🔧 Hardware Overview
+# Hardware Overview
 
 This enclosure houses the core components for measuring and transmitting energy data. The setup is securely mounted on a cabinet and designed for stable, long-term monitoring.
 
-## 🔍 Functional Overview
+## Functional Overview
 
 This energy monitoring system is built around a DIN-rail-mounted power meter that measures electrical parameters such as voltage, current, and power. It transmits this data wirelessly to a cloud platform via Wi-Fi. The system is fully enclosed for safety and reliability.
 
-## 🧩 Components & Specifications
+## Components & Specifications
 
 | Component | Description |
 |----------|-------------|
@@ -19,7 +19,7 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
 
 ---
 
-## 📑 Extended Technical Details
+## Extended Technical Details
 
 ### Adtek CPM-12D — Multifunction Power Meter
 
@@ -45,7 +45,7 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
 
 ---
 
-## 🖼️ System Images
+##  System Images
 
 ### Full Enclosure Setup
 
