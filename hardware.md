@@ -6,36 +6,42 @@ This enclosure houses the core components for measuring and transmitting energy 
 
 This energy monitoring system is built around a DIN-rail-mounted power meter that measures electrical parameters such as voltage, current, and power. It transmits this data wirelessly to a cloud platform via Wi-Fi. The system is fully enclosed for safety and reliability.
 
-### System Responsibilities and Hardware Mapping
-
-- **Integrated Measurement and Processing Unit**  
-  → **Component: Adtek CPM-12D**  
-  Measures electrical values directly from the circuit, processes the data internally, and displays real-time values on its screen. Communicates over RS485.
-
-- **Communication Module**  
-  → **Component: ZQWL-GE300D RS485-to-Wi-Fi dongle**  
-  Sends processed data wirelessly to the cloud using the Modbus RTU protocol over RS485.
-
-- **Power Supply**  
-  → **Component: DIN Rail Power Supply** *(model unspecified)*  
-  Delivers regulated DC voltage to all components. Powered directly from the measured circuit.
-
-- **Relay Control**  
-  → **Component: RT10-32X Relay**  
-  Used to control a connected load or simulate switching behavior. Can be triggered automatically based on measurement conditions or manually.
-
----
-
-## 🧩 Bill of Materials
+## 🧩 Components & Specifications
 
 | Component | Description |
 |----------|-------------|
-| **Adtek CPM-12D** | Multifunction power meter with local display and RS485 output. |
-| **ZQWL-GE300D** | Wi-Fi dongle for wireless Modbus communication. |
-| **RT10-32X Relay (10A)** | Electromagnetic relay for load control or simulation. |
-| **DIN Rail Power Supply** | Supplies DC power to all devices in the enclosure. |
-| **Wiring + Terminal Blocks** | Organized wiring and modular connections. |
-| **Transparent Protective Enclosure** | Ensures physical safety and visibility. |
+| **Adtek CPM-12D** | Multifunction power meter for single- and three-phase systems. Measures voltage, current, active/reactive/apparent power, energy (kWh), frequency, and more. Features RS485 Modbus RTU support and an LCD display. Accuracy class 1%. |
+| **ZQWL-GE300D** | RS485-to-Wi-Fi gateway used for transmitting Modbus RTU data wirelessly to the cloud. Connects directly to the CPM-12D via RS485 and supports industrial data formats. |
+| **RT10-32X Relay (10A)** | Electromagnetic relay used for switching or load simulation. Can be triggered based on sensor data or programmed logic. |
+| **DIN Rail Power Supply** | Converts AC mains voltage to regulated DC voltage for powering all components in the enclosure. |
+| **Wiring + Terminal Blocks** | Organized electrical connections for signal, control, and power wiring. Mounted on DIN rail for modularity. |
+| **Transparent Protective Enclosure** | Wall-mounted casing that protects components while allowing visibility for inspection. |
+
+---
+
+## 📑 Extended Technical Details
+
+### Adtek CPM-12D — Multifunction Power Meter
+
+- **Measurement capabilities:** Voltage, current, frequency, active/reactive/apparent power, power factor, and energy (kWh/kVarh)  
+- **Accuracy:** Class 1% for energy readings  
+- **Sampling:** 128 points per cycle for true RMS measurement  
+- **Communication:** RS485 Modbus RTU, baud rates up to 115200 bps  
+- **Display:** LCD screen with buttons, visible in direct sunlight  
+- **Data logging:** 2MB flash memory with Time-of-Use (TOU) logging  
+- **Supported systems:** 1P2W, 1P3W, 3P3W (1/2/3CT), 3P4W (1/3CT), balanced/unbalanced  
+- **Certifications:** CE, FCC, MTBF > 60,000 hours  
+- **Extras:** CO₂ emission display, pulse output for external monitoring
+
+---
+
+### ZQWL-GE300D — RS485-to-Wi-Fi Gateway
+
+- **Purpose:** Converts Modbus RTU signals from the CPM-12D into Wi-Fi-based TCP or MQTT messages for cloud integration  
+- **Connectivity:** RS485 input, 2.4GHz Wi-Fi output  
+- **Protocols:** Modbus RTU → Wi-Fi bridge  
+- **Use case:** Industrial IoT, remote energy monitoring  
+- **Form factor:** DIN-rail compatible
 
 ---
 
