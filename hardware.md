@@ -73,7 +73,7 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
 
 ---
 
-### 📊 Wiring Diagram (Slide)
+### Wiring Diagram (Slide)
 ![Hardware Diagram](./images/Hardware_Diagram.png)  
 > Midterm presentation slide showing the wiring and system layout.
 
