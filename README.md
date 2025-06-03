@@ -6,13 +6,21 @@ A full-stack electricity consumption dashboard system that integrates React fron
 
 electric-meter-final-all-integrated/
 ├── server.js                   # Express.js backend server
+
 ├── scripts/
+
 │   └── download_data.py       # Python script to pull CSV files from AWS S3
+
 ├── public/
+
 │   └── main_branch_1/         # Folder containing downloaded CSV data
+
 ├── src/                       # React front-end source code
+
 │   └── App.jsx                # Main dashboard component
+
 ├── package.json               # Project dependencies and scripts
+
 └── README.md                  # This file
 
 🧩 System Components
