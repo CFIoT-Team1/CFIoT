@@ -133,3 +133,11 @@ Feel free to extend or fork this dashboard. Contributions welcome!
 
 🛠️ Made with Python, Node.js, and React.
 
+
+![image](https://github.com/user-attachments/assets/3d7307b3-61a5-4395-a906-dc6987c27d66)
+
+
+![image](https://github.com/user-attachments/assets/7a0d442d-7e1e-4502-a3dc-610ef2c362c7)
+
+
+
