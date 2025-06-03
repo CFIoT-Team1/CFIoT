@@ -47,7 +47,6 @@ The promotion strategy will focus on educating potential users about the **infor
 
 ---
 
-
 ## Sales and Distribution
 To ensure that our smart power meter is easily accessible to its target markets, we can use the following sales channels:
 - **Direct Online Sales**: operate an e-commerce platform on our website, allowing for direct customer interaction and lowering prices by cutting intermediaries;
@@ -56,3 +55,32 @@ To ensure that our smart power meter is easily accessible to its target markets,
 - **Educational and Community Programs**: offer the product through partnerships with schools and communities at a reduced cost to promote energy literacy and adoption;
 - **Online Marketplace**: list the product on popular Taiwanese e-commerce platforms (e.g. Shopee, PC home) to reach a wider online audience;
 - **Bundled Kits**: include the product as part of existing "Energy Saving Kits" by partnering up with the companies selling them;
+
+---
+
+## Deployment Plan
+The deployment strategy will initially target the high-potential rental market, followed by an expansion to other segments, leveraging early successes and data to drive broader adoption
+- **Initial Focus: Landlords and Rental Properties**:
+  - Contat property management companies and landlords associations. Emphasize benefits such as attracting and retaining tenants through smart power management, encouragins responsible energy use, monitoring common area consumption for cost control, and potential clearer individual unit billing (where applicable and desired)
+  - Seek partnerships with real estate agencies to promote the smart meter as a desirable feature in rental listings;
+  - Offer pilot programs and bulk discounts to early adopters;
+- **Secondary Expansion Targets**:
+  - *SMEs*: continue direct sales, focus on business with clear improvements to make, emphasizing rapid ROI
+  - *Households*: scale direct sales, provide educational campaigns;
+  - *Institutions and Communities*: pursue partnerships, offer tailored packages;
+- **LongTerm Growth & Scaling**:
+  - Utilise accumulated data and positive feedback to build market credibility;
+  - Expand presence through retail channels and online marketplaces;
+  - Explore potential collaborations with utility providers to integrate solution into broader energy-saving packages;
+ 
+---
+
+## Comparison with Existing Devices
+Devices in the current landscape of power meters include devices that offer a lot of features for a hefty price, as well as more affordable solutions which offer an extremely limited array of features. Examples include:
+- **Sense Home Energy Monitor**: powerful device monitoring power and reliying on AI to disaggregate appliance usage. It requires professional installation and involves high upfront cost (often $300+). The depth of features is impressive but it is not an entry-level solution;
+- **P3 Kill A Watt**: single appliance tester, can't offer holistic view of home energy usage, no remote access, no historical in-app data tracking. Requires manual checking. It is not useful in building the "bigger picture" that we are looking for to induce behavioral change. Extremely cheap at around $20-$30, but lacks core features.
+Our solution differentiates from the previously mentioned ones:
+- *Simple and Cost Effective*: unlike Sense Home Energy Monitor, our device is cheap and can be installed easily. Compared to Kill A Watt, it is significantly more advanced, providing more value per money spent;
+- *Clarity*: Kill A Watt does not provide sufficient data, while Sense offers a huge amount of data, most of which is not useful to the average user. Our solution aims to be in the middle ground;
+- *Reliability*: highly complex systems like Sense have more elements that can fail or break, and repair prices or replacements will be much more expensive.
+- *Scalability*: our device is not just a standalone tool but it has been programmed to integrate with other devices, while maintaining the ease of use of managing a single device.
