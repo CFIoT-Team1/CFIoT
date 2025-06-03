@@ -5,6 +5,7 @@ A full-stack electricity consumption dashboard system that integrates React fron
 📦 Project Structure
 
 electric-meter-final-all-integrated/
+
 ├── server.js                   # Express.js backend server
 
 ├── scripts/
