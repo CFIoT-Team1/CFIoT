@@ -1,27 +1,18 @@
-⚡ Electric Meter Dashboard (Full Stack with AWS Integration)
+⚡ Electric Meter Dashboard (Full Stack)
 
-A full-stack electricity consumption dashboard system that integrates React front-end, Node.js + Express back-end, and Python-based AWS S3 data fetching.
+A full-stack electricity consumption dashboard system that integrates React front-end, Node.js + Express back-end, and Python-based CSV data processing.
 
 📦 Project Structure
 
 electric-meter-final-all-integrated/
-
 ├── server.js                   # Express.js backend server
-
 ├── scripts/
-
-│   └── download_data.py       # Python script to pull CSV files from AWS S3
-
+│   └── download_data.py       # Python script to pull CSV files (from S3 or local source)
 ├── public/
-
 │   └── main_branch_1/         # Folder containing downloaded CSV data
-
 ├── src/                       # React front-end source code
-
 │   └── App.jsx                # Main dashboard component
-
 ├── package.json               # Project dependencies and scripts
-
 └── README.md                  # This file
 
 🧩 System Components
@@ -38,7 +29,7 @@ Buttons:
 
 Update Chart: refreshes data from backend API /api/hourly
 
-Run Python Script: triggers data update from AWS S3 via backend /api/update-data
+Run Python Script: triggers data update via backend /api/update-data
 
 🔹 2. Node.js + Express Backend (server.js)
 
@@ -48,29 +39,21 @@ GET /api/summary: returns total daily kWh for each CSV
 
 GET /api/hourly: returns per-hour energy differences
 
-POST /api/update-data: triggers Python script to download CSVs from S3
+POST /api/update-data: triggers Python script to download/update CSVs
 
 Also serves static files (like the front-end build) via express.static()
 
 🔹 3. Python Script (scripts/download_data.py)
 
-Uses boto3 to:
+Designed to:
 
-Connect to AWS S3
+Read from remote AWS S3 bucket or local directory
 
 Download all .csv files in main_branch_1/
 
 Skip re-downloading unchanged files (based on LastModified timestamp)
 
 Output CSVs to /public/main_branch_1/
-
-☁️ AWS Integration (To Set Up Later)
-
-AWS S3 Bucket stores CSV data uploaded from IoT/smart meters.
-
-Example file path: s3://powerdata-test-1/main_branch_1/main_ami_20250327.csv
-
-IAM key must be placed in the Python script (you should rotate and protect this key!)
 
 🚀 How to Run Locally
 
@@ -107,59 +90,25 @@ Frontend sends POST /api/update-data
 
 Backend executes scripts/download_data.py
 
-Python script pulls files from S3 → saves to public/main_branch_1/
+Python script pulls files → saves to public/main_branch_1/
 
 Frontend re-fetches new data and updates charts
-
-🌐 How to Deploy on AWS (Tomorrow's Setup)
-
-✅ Requirements:
-
-AWS EC2 Ubuntu instance
-
-Open ports:
-
-SSH: 22
-
-Backend API: 3001
-
-Frontend Dev: 5173
-
-Basic Steps:
-
-# Install env
-sudo apt update
-sudo apt install -y nodejs npm python3-pip
-
-# Upload project or git clone
-cd electric-meter-final-all-integrated
-npm install
-pip3 install boto3
-
-# Start backend
-node server.js
-
-# Build frontend
-cd src
-npm run build
-
-Then set Express to serve /dist, or set up nginx reverse proxy.
 
 🧪 Sample APIs
 
 GET  /api/hourly        -> Returns hourly energy deltas
 GET  /api/summary       -> Returns total daily kWh per CSV
-POST /api/update-data   -> Triggers S3 download script
+POST /api/update-data   -> Triggers CSV download script
 
 👩‍🏫 For Presentations / Teaching
 
 This project demonstrates:
 
-Full-stack integration with Python, JS, and AWS
+Full-stack integration with Python, JS
 
 Real-time data updates and visualization
 
-Cloud + local computation hybrid model
+Hybrid local data processing model
 
 Use this project as a foundation to:
 
