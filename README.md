@@ -2,21 +2,6 @@
 
 A full-stack electricity consumption dashboard system that integrates React front-end, Node.js + Express back-end, and Python-based CSV data processing.
 
-## 📦 Project Structure
-
-```
-electric-meter-final-all-integrated/
-├── server.js                   # Express.js backend server
-├── scripts/
-│   └── download_data.py       # Python script to pull CSV files (from S3 or local source)
-├── public/
-│   └── main_branch_1/         # Folder containing downloaded CSV data
-├── src/                       # React front-end source code
-│   └── App.jsx                # Main dashboard component
-├── package.json               # Project dependencies and scripts
-└── README.md                  # This file
-```
-
 ## 🧩 Software System Components
 
 [Software Documentation](software.md)
@@ -156,8 +141,6 @@ This dashboard provides **real-time energy visibility**, allowing users to:
 
 Inspired by Taiwan's national net-zero efforts and the Smart City Expo.
 
----
-
 ### Use Cases
 
 - **Homes** – Lower energy bills by changing small habits
@@ -195,14 +178,19 @@ Our approach focuses on **closing the energy information gap** for everyday user
 
 ---
 
-## 🌱 Future Ideas
+## 👥 About Us
 
-- Appliance-level tracking
-- Login system with user profiles
-- Gamification or smart recommendations
-- Scheduled Python sync (e.g. via cron or AWS Lambda)
-- PDF exports and email reports
+We are a team of five students from Taiwan Tech who built this project as part of the CFIoT course.
 
+### Team Members
+
+| Name                   | Role                | Responsibility                        |
+|------------------------|---------------------|----------------------------------------|
+| **Alan**               | Hardware Engineer    | Integrated sensors and enclosure       |
+| **Paul**               | Software Engineer    | Backend and AWS integration            |
+| **Lea**                | GitHub Engineer      | Codebase management                    |
+| **Thisala**            | Creative Director    | Visual design and presentation         |
+| **Abdullah**           | UI Engineer          | Designed the website                   |
 ---
 
 ## 🌐 Website
