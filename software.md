@@ -2,15 +2,13 @@
 
 ## Overview
 
-The CFIoT Electric Meter Dashboard is a full-stack web application designed to monitor and visualize real-time electricity consumption data. The system integrates cloud storage, automated data processing, and an interactive web interface to provide comprehensive energy usage analytics.
+The Smart Power Meter Dashboard is a full-stack web application designed to monitor and visualize real-time electricity consumption data. The system integrates cloud storage, automated data processing, and an interactive web interface to provide comprehensive energy usage analytics.
 
 ## System Architecture
 
 ### Architecture Diagram
+![Software Architecture](images/Software.jpg)
 
-```
-DIAGRAM
-```
 
 ## Technology Stack
 
