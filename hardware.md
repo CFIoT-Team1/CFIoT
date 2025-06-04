@@ -4,7 +4,7 @@ This enclosure houses the core components for measuring and transmitting energy 
 
 ## Functional Overview
 
-This energy monitoring system is built around a DIN-rail-mounted power meter that measures electrical parameters such as voltage, current, and power. It transmits this data wirelessly to a cloud platform via Wi-Fi. The system is fully enclosed for safety and reliability.
+This energy monitoring system is built around a DIN-rail-mounted power meter that measures electrical parameters such as voltage, current, and power. It transmits this data wirelessly to a cloud platform via Wi-Fi.
 
 ## Components & Specifications
 
@@ -12,7 +12,7 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
 |----------|-------------|
 | **Adtek CPM-12D** | Multifunction power meter for single- and three-phase systems. Measures voltage, current, active/reactive/apparent power, energy (kWh), frequency, and more. Features RS485 Modbus RTU support and an LCD display. Accuracy class 1%. |
 | **ZQWL-GE300D** | RS485-to-Wi-Fi gateway used for transmitting Modbus RTU data wirelessly to the cloud. Connects directly to the CPM-12D via RS485 and supports industrial data formats. |
-| **RT10-32X Relay (10A)** | Electromagnetic relay used for switching or load simulation. Can be triggered based on sensor data or programmed logic. |
+| **RT10-32X Fuse Holder** | DIN-rail-mounted fuse holder. Protects downstream components by isolating overcurrent conditions. |
 | **DIN Rail Power Supply** | Converts AC mains voltage to regulated DC voltage for powering all components in the enclosure. |
 | **Wiring + Terminal Blocks** | Organized electrical connections for signal, control, and power wiring. Mounted on DIN rail for modularity. |
 | **Transparent Protective Enclosure** | Wall-mounted casing that protects components while allowing visibility for inspection. |
@@ -64,7 +64,7 @@ This energy monitoring system is built around a DIN-rail-mounted power meter tha
 
 ### Relay: RT10-32X  
 ![RT10-32X](./images/RT18.png)  
-> Relay used for switching or load simulation in the system.
+> DIN-rail-mounted fuse holder. Provides overcurrent protection for system components.
 
 ---
 
